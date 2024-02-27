@@ -19,8 +19,8 @@ ul {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: center;
-  }  & li:last-child {
+    justify-content: center;} 
+	li:last-child {
     width: 1000px;
     }
 @media screen and (min-width: 1200px) {
@@ -35,8 +35,8 @@ ul {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    & li:last-child {
-        width: 1000px;
-        }
+	}
+	li:last-child {
+        width: 1000px;}
   }
 }
