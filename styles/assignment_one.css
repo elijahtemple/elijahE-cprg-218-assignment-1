@@ -1,3 +1,5 @@
+@charset "UTF-8";
+/* CSS Document */
 ul { 
     gap: 25px;
     display: flex;
@@ -5,13 +7,11 @@ ul {
     flex-direction: row;
     justify-content: center;
 }
-
 @media screen and (max-width: 768px) {
     ul li.card {
         width: unset;
     }   
 }
-
 @media screen and (min-width: 768px) 
 {
 ul {
@@ -19,10 +19,9 @@ ul {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: center;} 
+    justify-content: center; } 
 	li:last-child {
-    width: 1000px;
-    }
+    width: 1000px;}}
 @media screen and (min-width: 1200px) {
     ul li.card {
         width: 20rem;
@@ -39,4 +38,3 @@ ul {
 	li:last-child {
         width: 1000px;}
   }
-}
